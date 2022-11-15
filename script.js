@@ -261,3 +261,69 @@ function PLUIE(){
 }
 
 document.querySelector("#multiplier").addEventListener("click", PLUIE)
+
+
+
+//musique
+
+
+function audio(){
+    audioElement.play()
+    audioElement.volume=0.2;
+}
+
+document.querySelector("#dino").addEventListener("click", audio)
+
+
+const audioElement = new Audio("musique.mp3");
+
+
+
+{/* <button class="control" onclick="play('audioPlayer', this)">Play</button>
+
+
+     function play(audioElement, control) {
+     var player = document.querySelector('#audioPlayer1');
+   
+     if (player.paused) {
+        player.play();
+        control.textContent = 'Pause';
+       } else {
+        player.pause();
+        control.textContent = 'Play';
+       }
+    } */}
+
+
+
+
+//bruit quand on click 
+
+function audio1(){
+    audioElementSuite.play()
+}
+
+document.querySelector("#dino").addEventListener("click", audio1)
+
+const audioElementSuite = new Audio("akira.mp3");
+
+
+//bruit quand on multiplie 
+
+function audio2(){
+    audioElementEncoreSuite.play()
+}
+
+document.querySelector("#multiplier").addEventListener("click", audio2)
+
+const audioElementEncoreSuite = new Audio("aplaudit.mp3");
+
+//bruit quand on autoclick 
+
+function audio3(){
+    audioElementEncoreSuite2.play()
+}
+
+document.querySelector("#autoclick").addEventListener("click", audio3)
+
+const audioElementEncoreSuite2 = new Audio("jilda.mp3");
