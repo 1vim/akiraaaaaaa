@@ -1,0 +1,154 @@
+html {
+  font-family: "Anton", sans-serif;
+  background: url(images/fond.jpg);
+}
+
+body {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+}
+
+#multiplier {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+}
+
+#autoclick {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+}
+
+#first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  margin: 0 auto;
+  font-family: "Anton", sans-serif;
+  font-size: 6em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2, #btnVideo {
+  color: rgb(0, 0, 0);
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+
+#fond1 {
+  width: 100%;
+  justify-content: center;
+}
+
+img {
+  width: 120%;
+  text-align: center;
+}
+
+#result {
+  background-color: rgb(255, 0, 0);
+  border-radius: 40em;
+  width: 24%;
+  padding: 2em;
+  color: white;
+}
+
+#autoclick, #multiplier, #dino {
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 265px;
+}
+
+p {
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+}
+
+#second {
+  justify-content: flex-start;
+}
+
+.pilule {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: pluie 4s linear 0s normal;
+          animation: pluie 4s linear 0s normal;
+  transform: translateY(-30vh);
+  width: 300px;
+}
+
+.droite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: pluie 4s linear 0s normal;
+          animation: pluie 4s linear 0s normal;
+  transform: translateY(-30vh);
+  width: 200px;
+}
+
+@-webkit-keyframes pluie {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateY(150vh);
+  }
+}
+
+@keyframes pluie {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateY(150vh);
+  }
+}
+#section1 {
+  background-color: red;
+  border-radius: 2em;
+  padding: 25px;
+  margin-bottom: 4em;
+  color: white;
+  font-size: 20px;
+}
+
+#section2 {
+  background-color: red;
+  border-radius: 4em;
+  padding: 20px;
+  margin-bottom: 4em;
+  margin-right: 4em;
+  color: white;
+}
+
+p {
+  font-family: "Anton", sans-serif;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
